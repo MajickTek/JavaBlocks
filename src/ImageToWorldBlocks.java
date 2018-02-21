@@ -33,10 +33,10 @@ public class ImageToWorldBlocks {
     private int grey = 0x808080; // raw hex = 808080; rgb = (128,128,128)
     private int maroon = 0x800000; // raw hex = 800000; rgb = (128,0,0)
     private int olive = 0x808000; // raw hex = 808000; rgb = (128,128,0)
-    private int rgb_green = 008000; // raw hex = 008000; rgb = (0,128,0)
-    private int rgb_purple = 800080; // raw hex = 800080; rgb = (128,0,128)
-    private int teal = 008080; // raw hex = 008080; rgb = (0,128,128)
-    private int navy = 000080; // raw hex = 008080; rgb = (0,0,128)
+    private int rgb_green = 0x008000; // raw hex = 008000; rgb = (0,128,0)
+    private int rgb_purple = 0x800080; // raw hex = 800080; rgb = (128,0,128)
+    private int teal = 0x008080; // raw hex = 008080; rgb = (0,128,128)
+    private int navy = 0x000080; // raw hex = 008080; rgb = (0,0,128)
     
     public ImageToWorldBlocks(){
         //Empty Constructor; this is for instantiating the class like below (in main)
