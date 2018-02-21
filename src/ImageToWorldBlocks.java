@@ -105,7 +105,7 @@ public class ImageToWorldBlocks {
         return count;
     }
     public void outputCode(){ // prints information from list of blocks
-        System.out.println("\nThe Slime Boy level code is:");
+        System.out.println("\nThe Slime Boy level code [Java] is:");
         for(Block b:blocks){
             System.out.println("World.blocks.add(new Block("
                     +b.getID()+ ", " +b.getX()+ ", " +b.getY()+ ", " +b.getW()+ ", " +b.getH()+ "));");
