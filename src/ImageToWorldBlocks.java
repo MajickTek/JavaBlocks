@@ -10,18 +10,36 @@ public class ImageToWorldBlocks {
     private int width = 0, height = 0; // used for pixels size of image
     static ArrayList<Block> blocks = new ArrayList<Block>(); // make a list of every object found
     
-    // MS Paint default colors
-    private int red = 0xED1C24;
-    private int green = 0x22B14C;
-    private int lime = 0xB5E61D;
-    private int turq = 0x00A2E8;
-    private int lightturq = 0x99D9EA;
-    private int orange = 0xFF7F27;
-    private int purple = 0xA349A4;
-    private int white = 0xFFFFFF;
+    // MS Paint default colors, in hex
+    private int red = 0xED1C24; // raw hex = ED1C24; rgb = (237,28,36)
+    private int green = 0x22B14C; // raw hex = 22B14C; rgb = (34,177,76)
+    private int lime = 0xB5E61D; // raw hex = B5E61D; rgb = (181,230,29)
+    private int turq = 0x00A2E8; // raw hex = 00A2E8; rgb = (0,162,232)
+    private int lightturq = 0x99D9EA; // raw hex = 99D9EA; rgb = (153,217,234)
+    private int orange = 0xFF7F27; // raw hex = FF7F27; rgb = (255,127,39)
+    private int purple = 0xA349A4; // raw hex = A349A4; rgb = (163,73,164)
+    private int white = 0xFFFFFF; // raw hex = FFFFFF; rgb = (255,255,255)
+    //END DEFAULT COLORS
+    
+    //here is a list of standard RGB colors, in hex (not including duplicates):
+    private int black = 0x000000; // raw hex = 000000; rgb = (0,0,0)
+    private int rgb_red = 0xFF0000; // raw hex = FF0000; rgb = (255,0,0)
+    private int rgb_lime = 0x00FF00; // raw hex = 00FF00; rgb = (0,255,0)
+    private int blue = 0x0000FF; // raw hex = 0000FF; rgb = (0,0,255)
+    private int yellow = 0xFFFF00; //raw hex = FFFF00; rgb = (255,255,0)
+    private int cyan = 0x00FFFF; // raw hex = 00FFFF; rgb = (0,255,255)
+    private int magenta = 0xFF00FF; // raw hex = FF00FF; rgb = (255,0,255)
+    private int silver = 0xC0C0C0; // raw hex = C0C0C0; rgb = (192,192,192)
+    private int grey = 0x808080; // raw hex = 808080; rgb = (128,128,128)
+    private int maroon = 0x800000; // raw hex = 800000; rgb = (128,0,0)
+    private int olive = 0x808000; // raw hex = 808000; rgb = (128,128,0)
+    private int rgb_green = 008000; // raw hex = 008000; rgb = (0,128,0)
+    private int rgb_purple = 800080; // raw hex = 800080; rgb = (128,0,128)
+    private int teal = 008080; // raw hex = 008080; rgb = (0,128,128)
+    private int navy = 000080; // raw hex = 008080; rgb = (0,0,128)
     
     public ImageToWorldBlocks(){
-        
+        //Empty Constructor; this is for instantiating the class like below (in main)
     }
     public static void main(String[] args){
         ImageToWorldBlocks i2wb = new ImageToWorldBlocks();
