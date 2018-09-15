@@ -43,7 +43,7 @@ public class ImageToWorldBlocks {
     }
     public static void main(String[] args){
         ImageToWorldBlocks i2wb = new ImageToWorldBlocks();
-        i2wb.getPixels("test2.png"); // your image
+        i2wb.getPixels(args[1]); // your image
         i2wb.searchPixels();
         i2wb.outputCode();
     }
